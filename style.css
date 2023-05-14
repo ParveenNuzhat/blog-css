@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-sec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content:space-between;
+    height: 80px;
+    background-color: rgb(194, 127, 127);
+    padding: 0 25px;
+    
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    
+}
+.navigation-sec{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+.menu-list{
+    float: right;
+    padding-left: 50px;
+}
+
+.menu-list a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu-list a:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.feature-sec{
+    margin: 35px 0;
+}
+.feature-sec h2{
+    text-align: center;
+}
+
+.blog-sec{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+.blog-sec p{
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+.feature-img{
+    overflow: hidden;
+    height: 55vh;
+    margin: 0 auto;
+    padding: 45px;
+    
+}
+
+/* Blog Page */
+
+.blog-post{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-sec{
+    height: 100%;
+    background-color: #706363;
+    color: white;
+    text-align: center;
+}
+.label-txt{
+    margin-right: 7px;
+    font-size: 16px;
+}
+.search-btn, .category-btn{
+    width: 60%;
+    margin-top: 40px;
+    padding: 15px;
+    background-color: rgb(206, 232, 167);
+    border: none;
+    border-radius: 5px;
+}
+.blog-list-sec{
+    text-align: center;
+    margin: 50px auto;
+   width: 80%;
+}
+
+
+/* ContactPage */
+
+.contact-form{
+    width: 75%;
+    margin: 60px auto;
+    text-align: center;
+}
+.contact-form h2{
+    margin-bottom: 25px;
+}
+
+
+form input, textarea{
+    width: 40%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+
+.submit-input{
+    width: 18%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+
